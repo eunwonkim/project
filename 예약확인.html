@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예약신청</title>
+    <link rel="stylesheet" href="../예약확인/예약확인.css">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Cute+Font&family=East+Sea+Dokdo&family=Gaegu&family=Hi+Melody&family=IBM+Plex+Sans+KR:wght@300;400;500&family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@900&family=Noto+Serif+KR:wght@300;600&family=Stylish&family=Yeon+Sung&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <!-- 처음 코드는 새창이 열리는 코드여서 현재창 그대로 유지하고싶어서 코드는 
+                onclick="window.open"이 아닌 onclick="location.href"로 변경 
+                <h3 class="tl" onclick="window.open('main1.html')">예원에스테틱</h3> --> 
+            <h1 class="tl" onclick="location.href='main1.html'">&nbsp;&nbsp;&nbsp;&nbsp;예원에스테틱</h1>
+            
+        </div>
+            
+            <ul>
+                <!-- 로고가 홈을 대체 한다면 불필요하다 판단함. 
+                    <li><a class="active" href="#home">Home</a></li> -->
+                <li ><a href="../html/package2.html">패키지</a></li>
+                <li><a href="../../포트폴리오/게시판/예약확인/예약확인.html">예약신청</a></li>
+                <li><a href="../게시판/list.html">공지사항</a></li>
+                <li><a href="../html/map.html">오시는길</a></li>
+                <li><a href="">시설 &nbsp;&nbsp;&nbsp;</a></li>
+            </ul>
+        </header>
+    <div class="board_write_wrap">
+        <div class="board_title">
+            <strong style="color: #9F4D41;;">예약신청</strong>
+            <p style="color: #9F4D41;">예약신청을 빠르고 정확하게 안내해드립니다.</p>
+        </div>
+        <div class="bord_write_wrap">
+            <div class="board_write">
+                <div class="title">
+                    <dl>
+                        <dt>성명</dt>
+                        <dd><input type="text" placeholder="" value="" style="border:1px solid #9F4D41;"></dd>
+                    </dl>
+                </div>
+                <div class="info">
+                <dl>
+                    <dt>연락처</dt>
+                    <dd><input type="text" placeholder="" value="" style="border:1px solid #9F4D41;"></dd>
+                </dl>
+               
+                <dt>날짜</dt>
+                <input type="date" name="" id="" style="border:1px solid #9F4D41;">
+                <div class="cont">
+            </div>
+            <div class="bt_wrap">
+                <a href="view.html" class="on">등록</a>
+                <a href="view.html">취소</a> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

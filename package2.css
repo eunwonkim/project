@@ -1,0 +1,77 @@
+*{
+    white-space: normal;
+    font-family: 'HaenamFont';
+}
+
+@font-face {
+    font-family: 'HaenamFont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/HaenamFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #E7D6B8;
+    background-image: url(../img/main1.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    /* background-attachment: fixed; */
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+ul {
+    
+    list-style-type: none; /* 목록에 붙은 ● 모양을 없애줌*/
+    margin: 0;
+    padding: 0px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    font-size: larger;    
+}
+
+.header{
+    display:flex;   
+    justify-content: space-between;
+    font-size: larger;
+}
+
+ul:after{
+    content:'';
+}
+
+.tl{
+    cursor:pointer;
+    color: #9F4D41;
+    display:inline-block;
+}
+
+.logo{
+    margin-right:10px;
+}
+
+li a {
+    display: block;
+    color: #9F4D41;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    text-decoration: underline;
+}
+
+.pkg{
+    color: black;
+}
+
+.footer{
+    text-align:center;
+    color: #9F4D41;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
